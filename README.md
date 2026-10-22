@@ -80,11 +80,11 @@ curl.exe -I http://localhost:8080
 
 ### Website Preview
 
-![Docker Web Server Website](screenshots/image.png)
+![Docker Web Server Website](screenshots/image2.png)
 
 ### Docker Container Status
 
-![Docker Compose Status](screenshots/image2.png)
+![Docker Compose Status](screenshots/image.png)
 
 ## What I Learned
 
