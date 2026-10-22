@@ -100,4 +100,4 @@ I also ran into issues with the Nginx startup command and the file copy path in 
 
 ## About
 
-**CodeAlpha DevOps Internship — Task 4: Web Server using Docker**
+**CodeAlpha DevOps Internship - Task 4: Web Server using Docker**
