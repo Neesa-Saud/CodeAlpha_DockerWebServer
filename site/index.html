@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A modern Docker and Nginx web server built for the CodeAlpha DevOps internship project.">
+  <title>CodeAlpha | Docker Web Server</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="#home">
+      <span class="brand-icon">C</span>
+      <span>CodeAlpha</span>
+      <span class="brand-divider"></span>
+      <small>DevOps Project</small>
+    </a>
+
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#technologies">Technologies</a>
+    </nav>
+
+    <a class="nav-button" href="#technologies">Explore Project ↗</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          CODEALPHA INTERNSHIP · TASK 04
+        </div>
+
+        <h1>Building the web,<br>one <span>container</span><br>at a time.</h1>
+
+        <p class="hero-description">
+          A modern web server project demonstrating containerization
+          with Docker and reliable web delivery with Nginx.
+          Simple technology, powerful possibilities.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#technologies">Explore the stack <span>→</span></a>
+          <a class="button secondary" href="#about">How it works</a>
+        </div>
+
+        <div class="hero-note">
+          <span class="live-dot"></span>
+          <span>Locally hosted</span>
+          <span class="note-separator">·</span>
+          <span>Container powered</span>
+        </div>
+      </div>
+
+      <div class="visual" aria-label="Illustration of a Docker container and web server">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="visual-label label-docker">
+          <span class="tech-symbol docker-symbol">▦</span>
+          <strong>Docker</strong>
+          <small>Containerization</small>
+        </div>
+        <div class="visual-label label-nginx">
+          <span class="tech-symbol nginx-symbol">N</span>
+          <strong>Nginx</strong>
+          <small>Web server</small>
+        </div>
+        <div class="server">
+          <div class="server-light"></div>
+          <div class="server-light"></div>
+          <div class="server-light"></div>
+          <span>WEB SERVER</span>
+        </div>
+        <div class="visual-caption">FROM CODE TO CONTAINER</div>
+      </div>
+    </section>
+
+    <section class="stats" id="about">
+      <div class="stat">
+        <span class="stat-icon">01</span>
+        <div><strong>One application</strong><small>A lightweight static website</small></div>
+      </div>
+      <div class="stat">
+        <span class="stat-icon">02</span>
+        <div><strong>One container</strong><small>Packaged with Docker</small></div>
+      </div>
+      <div class="stat">
+        <span class="stat-icon">03</span>
+        <div><strong>One web server</strong><small>Delivered using Nginx</small></div>
+      </div>
+    </section>
+
+    <section class="technologies section" id="technologies">
+      <div class="section-heading">
+        <span class="section-tag">THE TECHNOLOGY STACK</span>
+        <h2>Small stack. <span>Real-world skills.</span></h2>
+        <p>Three essential concepts behind this project.</p>
+      </div>
+
+      <div class="cards">
+        <article class="tech-card">
+          <div class="card-top">
+            <div class="card-icon docker-card-icon">▦</div>
+            <span class="card-number">01 / CONTAINER</span>
+          </div>
+          <h3>Docker</h3>
+          <p>Packages the application and its runtime environment into a portable container.</p>
+          <a href="https://docs.docker.com/" target="_blank" rel="noopener noreferrer">Explore Docker <span>↗</span></a>
+        </article>
+
+        <article class="tech-card">
+          <div class="card-top">
+            <div class="card-icon nginx-card-icon">N</div>
+            <span class="card-number">02 / WEB SERVER</span>
+          </div>
+          <h3>Nginx</h3>
+          <p>Serves the HTML and CSS files over HTTP so your browser can display the website.</p>
+          <a href="https://nginx.org/en/docs/" target="_blank" rel="noopener noreferrer">Explore Nginx <span>↗</span></a>
+        </article>
+
+        <article class="tech-card">
+          <div class="card-top">
+            <div class="card-icon devops-card-icon">∞</div>
+            <span class="card-number">03 / WORKFLOW</span>
+          </div>
+          <h3>DevOps</h3>
+          <p>Practises reproducible builds, service management, deployment, and troubleshooting.</p>
+          <a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">Learn more <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="workflow">
+      <div>
+        <span class="section-tag">THE WORKFLOW</span>
+        <h2>From source code<br>to a running website.</h2>
+      </div>
+      <div class="workflow-steps">
+        <div><span>01</span><strong>Write</strong><small>HTML + CSS</small></div>
+        <b>→</b>
+        <div><span>02</span><strong>Build</strong><small>Docker image</small></div>
+        <b>→</b>
+        <div><span>03</span><strong>Serve</strong><small>Nginx on port 80</small></div>
+        <b>→</b>
+        <div><span>04</span><strong>Access</strong><small>localhost:8080</small></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-icon">C</span>
+      <span>CodeAlpha</span>
+    </a>
+    <p>DevOps Internship Project · Task 4</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+</body>
+</html>
